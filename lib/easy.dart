@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 
 class CustomDialogEasy extends StatelessWidget {
-  final int;
-  const CustomDialogEasy({super.key, this.int});
+  final String msg;
+  const CustomDialogEasy(this.msg, {super.key});
 
   @override
   Widget build(BuildContext context) {
