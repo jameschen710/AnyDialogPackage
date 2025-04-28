@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 class KeyConstant {
   ///account page
   static const NICK_NAME = ValueKey('nickName');
-  static const My_NAME = ValueKey('myName');
+  static const MY_NAME = ValueKey('MYName');
   static const MOBILE_NUMBER = ValueKey('mobileNumber');
   static const EMAIL = ValueKey('email');
   static const APP_NAME = ValueKey('appName');
